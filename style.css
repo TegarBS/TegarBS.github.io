@@ -1,0 +1,46 @@
+body {
+  min-height: 1000vh;
+}
+
+#home {
+  padding: 17vh 2rem 0;
+}
+
+.batas {
+  margin-top: 5vh;
+  margin-bottom: -12vh;
+}
+
+#menu {
+  padding: 17vh 2rem 0;
+}
+
+#galeri {
+  padding: 17vh 2rem 0;
+  min-height: 1000px;
+}
+
+@media (max-width: 496px) {
+  #masgo {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  #gambarwarung {
+    width: 40vw;
+  }
+}
+@media (max-width: 766px) {
+  #gambarwarung {
+    max-width: 80vw;
+  }
+}
+
+.card {
+  margin-top: 2vh;
+}
+
+.card1 {
+  margin-top: 2vh;
+}
